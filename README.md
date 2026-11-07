@@ -8,6 +8,12 @@ The repository models a highly available web application architecture using reus
 
 ---
 
+## 📸 Screenshots & Project Visual
+
+The image below provides a visual overview of the Terraform-based AWS infrastructure project and its key deployment components.
+
+![Terraform AWS Infrastructure Project Showcase](docs/images/Terraform%20AWS%20Infrastructure%20Deployment%20Dashboard.png)
+
 ## 🏗️ Architecture
 
 ![AWS Terraform Architecture](docs/images/architecture.png)
