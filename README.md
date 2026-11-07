@@ -4,7 +4,7 @@ A modular AWS infrastructure reference project built with Terraform to demonstra
 
 The repository models a highly available web application architecture using reusable Terraform modules for networking, security, load balancing, and Auto Scaling compute.
 
-> **Portfolio / reference implementation:** This repository is intentionally validated as code and does not automatically provision AWS resources.
+> **Project status:** The author confirms that this Terraform infrastructure project was deployed and tested in AWS. The repository also serves as a reusable Infrastructure as Code portfolio reference.
 
 ---
 
@@ -247,15 +247,9 @@ The repository uses a validation-first workflow before infrastructure changes ar
 
 ## 🚫 Deployment Scope
 
-This project intentionally does not automatically execute:
+The author confirms that the infrastructure defined by this project was deployed and tested in AWS. Review the Terraform plan, account, region, and expected costs before reproducing the deployment. No automatic apply is triggered merely by reviewing the repository.
 
-```bash
-terraform apply
-```
-
-No AWS infrastructure is required to review the module design.
-
-The repository is intended to demonstrate:
+The repository demonstrates:
 
 - Terraform module design
 - Infrastructure composition
